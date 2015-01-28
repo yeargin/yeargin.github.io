@@ -1,0 +1,22 @@
+.imgprofile {
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  margin: 0 auto;
+}
+
+.imgprofile img {
+  width: 100%;
+  align: center;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
