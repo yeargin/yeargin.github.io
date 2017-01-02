@@ -1,0 +1,20 @@
+name: Yeargin Haus
+description: "Website for Stephen & Samantha Yeargin in Nashville, Tennessee"
+url: https://yearg.in
+
+timezone: America/Chicago
+
+exclude: [ Gemfile, Gemfile.lock, Procfile, vendor, gems, config, Rakefile, CNAME, README.md ]
+
+gems:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-coffeescript
+  - jekyll-sitemap
+  - jemoji
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  auto_ids: true

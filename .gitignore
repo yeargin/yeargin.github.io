@@ -1,1 +1,6 @@
+.sass-cache/
+_site/
+vendor/
+.ruby-version
 .whiskey_disk_git_changes
+.bundle/
