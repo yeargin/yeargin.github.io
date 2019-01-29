@@ -1,6 +1,6 @@
 production:
-  domain: "samantha@linode.yearg.in"
-  deploy_to: "/home/samantha/www/yearg.in/static_page"
+  domain: "deploy@linode.yearg.in"
+  deploy_to: "/srv/www/yearg.in/static_page"
   repository: "git@github.com:yeargin/yeargin.github.io.git"
   branch: "master"
   post_setup_script: "config/post_setup.sh"
