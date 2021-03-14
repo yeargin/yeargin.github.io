@@ -1,0 +1,74 @@
+---
+---
+
+body {
+  margin-top: 1em;
+}
+
+.fade-in {
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards; 
+} 
+@keyframes fadeInAnimation { 
+  0% { 
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% { 
+    opacity: 1;
+  } 
+}
+
+.imgprofile {
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  margin: 0 auto;
+}
+
+.imgprofile img {
+  width: 100%;
+  align: center;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+.social-media-links a {
+  color: #010101;
+}
+
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #bcc0c3;
+    background-color: #202124;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    color: white;
+  }
+  a {
+    color: #C58AF9;
+  }
+  img {
+    opacity: .75;
+    transition: opacity .5s ease-in-out;
+  }
+  img:hover {
+    opacity: 1;
+  }
+  .social-media-links a {
+    color: white;
+  }
+}

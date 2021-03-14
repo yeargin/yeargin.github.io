@@ -7,7 +7,6 @@ pipeline {
         slackSend (message: "${currentBuild.fullDisplayName} Build started (<${env.BUILD_URL}|Open>)", color: '#37b787')
         sh 'gem install execjs'
         sh 'bundle install'
-        sh 'bundle exec rake update'
         sh 'bundle exec jekyll build'
       }
       post {
