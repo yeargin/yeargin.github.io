@@ -4,7 +4,7 @@ url: https://yearg.in
 
 timezone: America/Chicago
 
-exclude: [ Gemfile, Gemfile.lock, Procfile, vendor, gems, config, Rakefile, CNAME, README.md ]
+exclude: [ Gemfile, Gemfile.lock, Procfile, vendor, gems, config, Rakefile, CNAME, README.md, Jenkinsfile ]
 
 gems:
   - jekyll-feed
