@@ -1,7 +1,0 @@
-production:
-  domain: "deploy@linode.yearg.in"
-  deploy_to: "/srv/www/yearg.in/static_page"
-  repository: "git@github.yearg.in:yeargin/yeargin.github.io.git"
-  branch: "master"
-  post_setup_script: "config/post_setup.sh"
-  post_deploy_script: "config/post_deploy.sh"
