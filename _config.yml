@@ -6,7 +6,7 @@ timezone: America/Chicago
 
 exclude: [ Gemfile, Gemfile.lock, Procfile, vendor, gems, config, Rakefile, CNAME, README.md, Jenkinsfile ]
 
-gems:
+plugins:
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-coffeescript
