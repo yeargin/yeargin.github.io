@@ -250,7 +250,6 @@ GEM
       unf_ext
     unf_ext (0.0.8.2)
     unicode-display_width (1.8.0)
-    webrick (1.8.1)
     whiskey_disk (0.6.24)
       rake
 
@@ -261,7 +260,6 @@ DEPENDENCIES
   github-pages
   jekyll-sitemap
   rake
-  webrick (~> 1.7)
   whiskey_disk
 
 BUNDLED WITH
